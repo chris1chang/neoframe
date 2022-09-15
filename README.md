@@ -5,6 +5,9 @@ Given a pandas dataframe in a form of an edgelist, neoframe lets you ingest data
 Example:
 
 ```
+import pandas as pd
+from neoframe import NeoFrame
+
 df = pd.DataFrame({'name': ['Alice', 'Bob', 'Carol'], 
 'age': ['55','66','77'], 
 'city': ['DC', 'San Francisco', 'Houston']})
